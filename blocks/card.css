@@ -1,10 +1,14 @@
 .card {
   max-width: 413px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .card__image {
   height: 413px;
-  width: 413px;
+  width: 100%;
   object-fit: cover;
   display: block;
 }
@@ -13,6 +17,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 413px;
+}
+
+.card__title {
+  margin: 12px 0 0;
 }
 
 .card__like-btn {
@@ -22,4 +31,10 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+}
+
+@media screen and (max-width: 627px) {
+  .card__image {
+    height: 288px;
+  }
 }

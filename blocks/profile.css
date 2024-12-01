@@ -6,25 +6,72 @@
 
 .profile__avatar {
   margin-right: 20px;
+  height: 190px;
+  width: 190px;
 }
 
 .profile__column {
   display: flex;
   flex-direction: column;
+  padding-left: 20px;
 }
 
 .profile__name {
   margin: 0 0 12px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
 }
 
 .profile__description {
   margin: 0;
+  opacity: 70%;
+  font-weight: 500;
 }
 
 .profile__edit-btn {
   margin-top: auto;
+  background-color: transparent;
+  border: none;
+  opacity: 70%;
+
+  padding: 0;
 }
 
 .profile__add-btn {
   margin-left: auto;
+}
+
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    max-width: 282px;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .profile__avatar {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 12px;
+  }
+
+  .profile__name {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  .profile__description {
+    margin-bottom: 32px;
+  }
+
+  .profile__edit-btn {
+    margin-bottom: 20px;
+  }
+
+  .profile__add-btn {
+    margin: 0;
+    width: 100%;
+  }
 }
