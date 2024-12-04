@@ -79,6 +79,7 @@
     height: 80px;
     width: 80px;
     margin-bottom: 12px;
+    margin-right: 0;
   }
 
   .profile__name {
@@ -95,6 +96,7 @@
 
   .profile__edit-btn {
     margin-bottom: 20px;
+    align-self: auto;
   }
 
   .profile__add-btn {
