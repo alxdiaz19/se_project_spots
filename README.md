@@ -5,7 +5,9 @@ Spots is an image-sharing platform where users can upload, share, and browse ima
 ## Description
 
 -Upload images to share with friends or the public.
+
 -Browse through a collection of shared images.
+
 -Responsive layout for optimal viewing on any device.
 
 ## Tech Stack
