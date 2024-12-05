@@ -1,10 +1,12 @@
 # Spots
 
-An image sharing site.
+Spots is an image-sharing platform where users can upload, share, and browse images in a gallery format.
 
-## Desctiopion
+## Description
 
-the project and its functionality
+-Upload images to share with friends or the public.
+-Browse through a collection of shared images.
+-Responsive layout for optimal viewing on any device.
 
 ## Tech Stack
 
@@ -16,5 +18,4 @@ the project and its functionality
 
 This webpage is deployed to Github Pages
 
--Deployment link
-https://alxdiaz19.github.io/se_project_spots/index.html
+[Deployment link](https://alxdiaz19.github.io/se_project_spots/index.html)
