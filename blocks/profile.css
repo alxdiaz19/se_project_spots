@@ -5,9 +5,9 @@
 }
 
 .profile__avatar {
-  margin-right: 20px;
   height: 190px;
   width: 190px;
+  border-radius: 8px;
 }
 
 .profile__column {
@@ -50,6 +50,10 @@
   padding: 0;
 }
 
+.profile__edit-btn:hover {
+  cursor: pointer;
+}
+
 .profile__add-btn {
   margin-left: auto;
   margin-top: auto;
@@ -64,6 +68,10 @@
   align-items: center;
   padding: 0px;
   border-radius: 8px;
+}
+
+.profile__add-btn:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {
