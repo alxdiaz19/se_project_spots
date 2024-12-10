@@ -31,7 +31,7 @@
   overflow: hidden;
   font-weight: 500;
   font-size: 16px;
-  line-height: 16px;
+  line-height: 1.2;
 }
 
 .card__like-btn {
@@ -48,14 +48,16 @@
 
 .card__like-btn:hover {
   cursor: pointer;
+  opacity: 1;
 }
 
-.card__like-btn @media screen and (max-width: 627px) {
+@media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
   }
 
   .card__title {
     max-width: 250px;
+    font-size: 16px;
   }
 }
