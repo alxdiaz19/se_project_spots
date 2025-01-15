@@ -27,6 +27,7 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   max-width: 420px;
+  color: #212121;
 }
 
 .profile__description {
@@ -39,6 +40,7 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   max-width: 420px;
+  color: #212121;
 }
 
 .profile__edit-btn {
@@ -48,6 +50,8 @@
   opacity: 70%;
   align-self: start;
   padding: 0;
+  color: #212121;
+  font-weight: 500;
 }
 
 .profile__edit-btn:hover {
@@ -90,6 +94,10 @@
     width: 80px;
     margin-bottom: 12px;
     margin-right: 0;
+  }
+
+  .profile__column {
+    padding-left: 0;
   }
 
   .profile__name {
